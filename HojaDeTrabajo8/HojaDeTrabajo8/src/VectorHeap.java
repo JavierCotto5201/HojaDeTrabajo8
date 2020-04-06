@@ -119,7 +119,7 @@ public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E>{
 	@Override
 	public E getFirst() {
 		// TODO Auto-generated method stub
-		return null;
+		return data.get(0);
 	}
 
 	@Override
